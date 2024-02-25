@@ -1,5 +1,8 @@
 package io.github.aj8gh.fpl.cli.model;
 
-public record PlayerStat() {
+public record ElementStat(
+    String label,
+    String name
+) {
 
 }
